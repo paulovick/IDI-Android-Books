@@ -38,11 +38,15 @@ public class BookData {
 
     public BookData(Context context) {
         dbHelper = new MySQLiteHelper(context);
+        // STUB
+        this.open();
+        this.database.delete(MySQLiteHelper.TABLE_BOOKS, null, null);
+        this.close();
+        // END STUB
     }
 
     public void open() throws SQLException {
         this.database = this.dbHelper.getWritableDatabase();
-        this.database.delete(MySQLiteHelper.TABLE_BOOKS, null, null);
     }
 
     public void close() {
@@ -108,6 +112,17 @@ public class BookData {
         }
         // make sure to close the cursor
         cursor.close();
+
+        // STUB
+        if (books.size() == 0) {
+            this.createBook("Harry Potter and Deathly Hallows", "J. K. Rowling");
+            this.createBook("The godfather", "Mario Puzzo");
+            this.createBook("The kid with the rayas pyjama", "Anonymus");
+            this.createBook("Hamlet", "William Shakespeare");
+            return this.getAllBooks();
+        }
+        // END STUB
+
         return books;
     }
 
