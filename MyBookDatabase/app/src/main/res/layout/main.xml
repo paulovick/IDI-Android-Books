@@ -12,21 +12,15 @@
         android:layout_height="match_parent" />
 
     <!-- Drawer -->
-    <RelativeLayout
-        android:id="@id/menu_drawer"
-        android:layout_width="240dp"
+    <fragment
+        android:name="com.example.pr_idi.mydatabaseexample.Presentation.LeftMenuDrawerFragment"
+        android:id="@+id/leftMenuDrawerFragment"
+        android:layout_width="280dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:choiceMode="singleChoice"
         android:divider="@android:color/transparent"
-        android:dividerHeight="0dp"
-        android:background="#111">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Texto de prueba beibe"/>
-    </RelativeLayout>
+        android:dividerHeight="0dp" />
 
 </android.support.v4.widget.DrawerLayout>
 

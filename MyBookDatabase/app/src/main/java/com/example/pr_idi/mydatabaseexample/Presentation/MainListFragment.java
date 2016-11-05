@@ -14,10 +14,6 @@ import com.example.pr_idi.mydatabaseexample.R;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created by pautorrents on 5/11/16.
- */
-
 public class MainListFragment extends ListFragment {
 
     private BookData bookData;
@@ -26,8 +22,6 @@ public class MainListFragment extends ListFragment {
         this.bookData = bookData;
         List<Book> values = bookData.getAllBooks();
 
-        // use the SimpleCursorAdapter to show the
-        // elements in a ListView
         ArrayAdapter<Book> adapter = new ArrayAdapter<>(this.getActivity(),
                 android.R.layout.simple_list_item_1, values);
         setListAdapter(adapter);
@@ -38,8 +32,6 @@ public class MainListFragment extends ListFragment {
         return inflater.inflate(R.layout.main_list_fragment, container, false);
     }
 
-    // Will be called via the onClick attribute
-    // of the buttons in main.xml
     public void onClick(View view) {
         @SuppressWarnings("unchecked")
         ArrayAdapter<Book> adapter = (ArrayAdapter<Book>) getListAdapter();

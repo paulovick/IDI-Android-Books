@@ -10,7 +10,9 @@ import com.example.pr_idi.mydatabaseexample.R;
 public class MainActivity extends Activity {
 
     private BookData bookData;
+
     private MainListFragment mainListFragment;
+    private LeftMenuDrawerFragment leftMenuDrawerFragment;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -20,8 +22,11 @@ public class MainActivity extends Activity {
         bookData = new BookData(this);
         bookData.open();
 
-        mainListFragment = (MainListFragment)getFragmentManager().findFragmentById(R.id.mainListFragment);
+        mainListFragment = (MainListFragment)this.getFragmentManager().findFragmentById(R.id.mainListFragment);
         mainListFragment.initialize(this.bookData);
+
+        leftMenuDrawerFragment = (LeftMenuDrawerFragment)this.getFragmentManager().findFragmentById(R.id.leftMenuDrawerFragment);
+        leftMenuDrawerFragment.initialize(this.bookData);
     }
 
     public void onClick(View view) {
