@@ -1,4 +1,6 @@
-package com.example.pr_idi.mydatabaseexample;
+package com.example.pr_idi.mydatabaseexample.Domain.Entities;
+
+import com.example.pr_idi.mydatabaseexample.Domain.Helpers.Category;
 
 /**
  * Book
@@ -10,11 +12,11 @@ public class Book {
     // Contains basic information on the book
 
     private long id;
-    private String author;
     private String title;
+    private String author;
     private int year;
     private String publisher;
-    private String category;
+    private Category category;
     private String personal_evaluation;
 
     public long getId() {
@@ -25,20 +27,20 @@ public class Book {
         this.id = id;
     }
 
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
     public String getTitle() {
         return title;
     }
 
     public void setTitle(String title) {
         this.title= title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public int getYear() {
@@ -57,19 +59,19 @@ public class Book {
         this.publisher= publisher;
     }
 
-    public String getCategory() {
+    public Category getCategory() {
         return category;
     }
 
-    public void setCategory(String category) {
+    public void setCategory(Category category) {
         this.category = category;
     }
 
-    public String getPersonal_evaluation() {
+    public String getPersonalEvaluation() {
         return personal_evaluation;
     }
 
-    public void setPersonal_evaluation(String personal_evaluation) {
+    public void setPersonalEvaluation(String personal_evaluation) {
         this.personal_evaluation = personal_evaluation;
     }
 

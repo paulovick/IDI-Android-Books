@@ -3,6 +3,51 @@
 
     <item
         is-multidex="true"
+        jar="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_1912eeb4609e21acd36f215154ec8b00105f46d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="41184ff7ce54e7a580574fdda5df9eb5469d2a07">
+        <dex dex="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fb7da3422b79e397505732ce19c26818745dfdcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pautorrents/Documents/FIB/IDI/Android/MyBookDatabase/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/pautorrents/Documents/FIB/IDI/Android/MyBookDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_7a0eeb34a7eac37757278c1c0cb29cd23a86bba5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_19f2c7147befc1c8bcb5daf74edb3c260f3bb9b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pautorrents/Documents/FIB/IDI/Android/MyBookDatabase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/pautorrents/Documents/FIB/IDI/Android/MyBookDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_23eca3e03ecdb9630415cacf4662ea5620b698cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/pautorrents/Documents/FIB/IDI/Android/MyBookDatabase/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -30,12 +75,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/pautorrents/Documents/FIB/IDI/Android/MyBookDatabase/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jar="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/pautorrents/Documents/FIB/IDI/Android/MyBookDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_7a0eeb34a7eac37757278c1c0cb29cd23a86bba5/classes.dex" />
+        <dex dex="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_e6068aa89b4d9d2b6ca969d8b5825b1589b1165c/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -48,12 +93,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/pautorrents/Documents/FIB/IDI/Android/MyBookDatabase/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jar="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/pautorrents/Documents/FIB/IDI/Android/MyBookDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_23eca3e03ecdb9630415cacf4662ea5620b698cd/classes.dex" />
+        sha1="27bf0d632f490c43e29d69f0056094be12f0e6f7">
+        <dex dex="/Users/pautorrents/Documents/FIB/IDI/Android/Projecte-Git/MyBookDatabase/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_156eb4eef2e71fad2e96c2f3c1bb522f440a32d0/classes.dex" />
     </item>
 
 </items>

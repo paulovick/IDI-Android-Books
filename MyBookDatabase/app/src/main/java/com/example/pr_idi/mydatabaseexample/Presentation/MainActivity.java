@@ -1,4 +1,4 @@
-package com.example.pr_idi.mydatabaseexample;
+package com.example.pr_idi.mydatabaseexample.Presentation;
 
 
 import java.util.List;
@@ -8,6 +8,10 @@ import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+
+import com.example.pr_idi.mydatabaseexample.Domain.Entities.Book;
+import com.example.pr_idi.mydatabaseexample.Infrastructure.BookData;
+import com.example.pr_idi.mydatabaseexample.R;
 
 public class MainActivity extends ListActivity {
     private BookData bookData;
