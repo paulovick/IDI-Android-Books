@@ -1,6 +1,7 @@
 package com.example.pr_idi.mydatabaseexample.Domain.Entities;
 
 import com.example.pr_idi.mydatabaseexample.Domain.Helpers.Category;
+import com.example.pr_idi.mydatabaseexample.Domain.Helpers.Evaluation;
 
 /**
  * Book
@@ -17,7 +18,7 @@ public class Book {
     private int year;
     private String publisher;
     private Category category;
-    private String personal_evaluation;
+    private Evaluation personal_evaluation;
 
     public long getId() {
         return id;
@@ -67,11 +68,11 @@ public class Book {
         this.category = category;
     }
 
-    public String getPersonalEvaluation() {
+    public Evaluation getPersonalEvaluation() {
         return personal_evaluation;
     }
 
-    public void setPersonalEvaluation(String personal_evaluation) {
+    public void setPersonalEvaluation(Evaluation personal_evaluation) {
         this.personal_evaluation = personal_evaluation;
     }
 

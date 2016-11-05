@@ -16,6 +16,7 @@ import android.util.Log;
 
 import com.example.pr_idi.mydatabaseexample.Domain.Entities.Book;
 import com.example.pr_idi.mydatabaseexample.Domain.Helpers.Category;
+import com.example.pr_idi.mydatabaseexample.Domain.Helpers.Evaluation;
 
 public class BookData {
 
@@ -61,7 +62,7 @@ public class BookData {
         values.put(MySQLiteHelper.COLUMN_PUBLISHER, "Do not know");
         values.put(MySQLiteHelper.COLUMN_YEAR, 2030);
         values.put(MySQLiteHelper.COLUMN_CATEGORY, Category.Fantasy.toString());
-        values.put(MySQLiteHelper.COLUMN_PERSONAL_EVALUATION, "regular");
+        values.put(MySQLiteHelper.COLUMN_PERSONAL_EVALUATION, Evaluation.Regular.toString());
 
         // Actual insertion of the data using the values variable
         long insertId = this.database.insert(MySQLiteHelper.TABLE_BOOKS, null,
@@ -117,8 +118,8 @@ public class BookData {
         book.setAuthor(cursor.getString(2));
         book.setYear(cursor.getInt(3));
         book.setPublisher(cursor.getString(4));
-        book.setCategory(Category.findCategoryByName(cursor.getString(5)));
-        book.setPersonalEvaluation(cursor.getString(6));
+        book.setCategory(Category.findByName(cursor.getString(5)));
+        book.setPersonalEvaluation(Evaluation.findByName(cursor.getString(6)));
         return book;
     }
 }

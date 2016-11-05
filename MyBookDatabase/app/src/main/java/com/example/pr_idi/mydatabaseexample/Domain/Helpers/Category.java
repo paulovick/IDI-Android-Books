@@ -49,7 +49,7 @@ public enum Category {
         return this.name;
     }
 
-    public static Category findCategoryByName(String name) {
+    public static Category findByName(String name) {
         try {
             Category result = Category.valueOf(name);
             return result;
