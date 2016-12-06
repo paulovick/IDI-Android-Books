@@ -1,4 +1,4 @@
-package com.example.pr_idi.mydatabaseexample;
+package com.example.pr_idi.mydatabaseexample.Persistance;
 
 /**
  * BookData
@@ -13,6 +13,8 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
+
+import com.example.pr_idi.mydatabaseexample.Domain.Book;
 
 public class BookData {
 
