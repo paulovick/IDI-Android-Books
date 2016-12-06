@@ -1,13 +1,14 @@
 package com.example.pr_idi.mydatabaseexample.Presentation;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.example.pr_idi.mydatabaseexample.Infrastructure.BookData;
 import com.example.pr_idi.mydatabaseexample.R;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     private BookData bookData;
 
